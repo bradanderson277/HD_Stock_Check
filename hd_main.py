@@ -23,6 +23,7 @@ def enter_sku():
     return render_template('index.html')
 
 
+
 @app.route('/', methods=['POST'])
 def input_form():
         sku_1 = request.form['sku1']
