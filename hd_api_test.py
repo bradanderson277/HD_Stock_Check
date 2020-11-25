@@ -7,3 +7,6 @@ for store in stores:
         store_id = jsn_resp['aisleBay']['storeDisplayName']
         stock_level = jsn_resp['storeStock']['stockLevel']
     return (store, store_id, stock_level)
+
+
+    print('hi')
