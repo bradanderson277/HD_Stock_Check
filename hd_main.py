@@ -22,8 +22,6 @@ stores = ['7073', '7129', '7012', '7013', '7134', '7107',
 def enter_sku(): 
     return render_template('index.html')
 
-
-
 @app.route('/', methods=['POST'])
 def input_form():
         sku_1 = request.form['sku1']
