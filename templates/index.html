@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+
+{% block head %} 
+<title> Home </title>
+{% endblock %}
+
+
+{% block body %} 
+<form method="POST">
+    <label for="sku1">First SKU:</label>
+    <input type="text" id="sku1" name="sku1"><br><br>
+    <label for="sku2">Second SKU:</label>
+    <input type="text" id="sku2" name="sku2"><br><br>
+    <input type="submit" value="Submit">
+  </form>
+{% endblock %}
